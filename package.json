@@ -1,0 +1,30 @@
+{
+    "name": "pixgoods-mobile",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "immutable": "^3.8.1",
+        "normalize.css": "^7.0.0",
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4",
+        "react-icons": "^2.2.5",
+        "react-redux": "^5.0.5",
+        "react-router": "^3.0.5",
+        "react-router-redux": "^4.0.8",
+        "redux": "^3.6.0",
+        "redux-devtools-extension": "^2.13.2",
+        "redux-thunk": "^2.2.0"
+    },
+    "devDependencies": {
+        "classnames": "^2.2.5",
+        "postcss-nested": "^2.0.2",
+        "postcss-simple-vars": "^4.0.0",
+        "react-app-rewired": "^1.0.5",
+        "react-scripts": "1.0.7"
+    },
+    "scripts": {
+        "start": "react-app-rewired start",
+        "build": "react-app-rewired build",
+        "test": "react-app-rewired test --env=jsdom"
+    }
+}
